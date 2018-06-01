@@ -17,7 +17,7 @@ tf.app.flags.DEFINE_integer('eval_step', 1, '')
 tf.app.flags.DEFINE_integer('batch_size', 32, '')
 tf.app.flags.DEFINE_integer('eval_batch_size', 32, '')
 tf.app.flags.DEFINE_integer('capacity', 2000, '')
-tf.app.flags.DEFINE_float('learning_rate', 1e-7, '')
+tf.app.flags.DEFINE_float('learning_rate', 1e-8, '')
 tf.app.flags.DEFINE_float('ratio', 0.2, '')
 
 tf.app.flags.DEFINE_string('train_dir', './Cat_Vs_Dog_Data/Data/train/', '')
